@@ -1,0 +1,141 @@
+body{
+  background: linear-gradient(to right, #A1A1A1 , #3F3F3F);
+}
+
+#div1 {
+  width: 100px;
+  height: 50px;
+  transform: skew(20deg);
+  background: linear-gradient(to right, #ECDD80 , #735FA2);
+  position: relative;
+  left: 25%;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#div1 {animation-timing-function: ease;}
+@keyframes example {
+  
+  25%  {background: linear-gradient(to right, #C1E8B2 , #5F6EA0); left:50px; top:0px;}
+  50%  {background: linear-gradient(to right, #FFEDC4 , #DF7989); left:50px; top:0px;}
+  75%  {background: linear-gradient(to right, #CFE37B , #CF8B56); left:50px; top:0px;}
+  100% {background: linear-gradient(to right, #95C2BF , #A1579B); left:0px; top:50px;}
+}
+
+#div2 {
+  width: 100px;
+  height: 50px;
+  transform: skew(20deg);
+  background: linear-gradient(to right, #ED2151 , #40AB00);
+  position: relative;
+  left: 25%;
+  animation-name: div2;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#div2 {animation-timing-function: ease-in-out;}
+@keyframes div2 {
+  
+  25%  {background: linear-gradient(to right, #035959 , #3C0A64); left:0px; top:50px;}
+  50%  {background: linear-gradient(to right, #3C9191 , #958F05); left:0px; top:50px;}
+  75%  {background: linear-gradient(to right, #662D90 , #093A60); left:0px; top:50px;}
+  100% {background: linear-gradient(to right, #D64439 , #035F4D); left:50px; top:0px;}
+}
+
+#div3 {
+  width: 100px;
+  height: 50px;
+  transform: skew(20deg);
+  background: linear-gradient(to right, #A0A071 , #475D63);
+  position: relative;
+  left: 29%;
+  animation-name: div3;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#div3 {animation-timing-function: ease;}
+@keyframes div3 {
+  
+  25%  {background: linear-gradient(to right, #A08871 , #604D6B); left:50px; top:0px;}
+  50%  {background: linear-gradient(to right, #5B985F , #2C1F4F); left:50px; top:0px;}
+  75%  {background: linear-gradient(to right, #726625 , #470C0A); left:50px; top:0px;}
+  100% {background: linear-gradient(to right, #3D98A1 , #D7B240); left:0px; top:50px;}
+}
+
+#div4 {
+ width: 100px;
+  height: 50px;
+  transform: skew(20deg);
+  background: linear-gradient(to right, #5553AC , #F2C9A5);
+  position: relative;
+  left: 25%;
+  animation-name: div4;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#div4 {animation-timing-function: ease-in-out;}
+@keyframes div4 {
+  
+  25%  {background: linear-gradient(to right, #FFDEAD , #86AAD3); left:0px; top:50px;}
+  50%  {background: linear-gradient(to right, #E3FCEA , #FFA69A); left:0px; top:50px;}
+  75%  {background: linear-gradient(to right, #CEE1F5 , #FFDEAD);  left:0px; top:50px;}
+  100% {background: linear-gradient(to right, #FFB7AD , #87DF9E); left:50px; top:0px;}
+}
+
+#div5 {
+  width: 100px;
+  height: 50px;
+  transform: skew(20deg);
+  background: linear-gradient(to right, #BE4C1E , #9ECDB9);
+  position: relative;
+  left: 25%;
+  animation-name: div5;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#div5 {animation-timing-function: ease;}
+@keyframes div5 {
+  
+  25%  {background: linear-gradient(to right, #DAF8A9 , #81D6B6); left:50px; top:0px;}
+  50%  {background: linear-gradient(to right, #9AE3C7 , #FFB99A); left:50px; top:0px;}
+  75%  {background: linear-gradient(to right, #FFC7AD , #E98DBA); left:50px; top:0px;}
+  100% {background: linear-gradient(to right, #F0A3C9 , #D0F594); left:0px; top:50px;}
+}
+
+#div6 {
+  width: 100px;
+  height: 50px;
+  transform: skew(20deg);
+  background: linear-gradient(to right, #7BB01C , #9B195E);
+  position: relative;
+  left: 25%;
+  animation-name: div6;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#div6 {animation-timing-function: ease-in-out;}
+@keyframes div6 {
+  
+  25%  {background: linear-gradient(to right, #F9CEE7 , #A5ABE4); left:0px; top:50px;}
+  50%  {background: linear-gradient(to right, #9BE4C3 , #FFFCAD); left:0px; top:50px;}
+  75%  {background: linear-gradient(to right, #FFC3AD , #C49FE3); left:0px; top:50px;}
+  100% {background: linear-gradient(to right, #DFF9A9 , #FFE9AD); left:50px; top:0px;}
+}

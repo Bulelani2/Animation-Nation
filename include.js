@@ -6526,6 +6526,13 @@ let cards = [
     author: 'Marion',
     githubLink: 'https://github.com/marionjudy13'
   },
+  {
+    artName: 'Bulelani2_Anima',
+    pageLink: './Art/Bulelani2_Anima/index.html',
+    // imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Bulelani2',
+    githubLink: 'https://github.com/Bulelani2'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+
